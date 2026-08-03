@@ -3,9 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face{
-    font-family: 'Android';
-    src: url('fontes/idroid.otf') format('opentype');
-    font-weight: normal;
+  font-family: 'Android';
+  src: url('../fontes/idroid.woff2') format('woff2'),
+       url('../fontes/idroid.woff') format('woff'),
+       url('../fontes/idroid.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root{
