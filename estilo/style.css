@@ -4,12 +4,10 @@
 
 @font-face{
   font-family: 'Android';
-  src: url('../fontes/idroid.woff2') format('woff2'),
-       url('../fontes/idroid.woff') format('woff'),
-       url('../fontes/idroid.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+  src: url('/projeto-android/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 :root{
